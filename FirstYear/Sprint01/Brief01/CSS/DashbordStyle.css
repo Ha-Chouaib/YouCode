@@ -24,7 +24,7 @@ header::after{
 
 h1{
     position: relative;
-    top: -10vh;
+    margin-bottom: 20vh;
     font-size: 10vw;
     background-color: rgba(0, 0, 0, 0.486);
     border-radius: 95px;
@@ -64,6 +64,28 @@ header > div > p{
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
 }
+
+.initials
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    color: var(--text-color1);
+    box-shadow: inset 2px 2px 10px  white;
+    border-radius: 50%;
+    background-color: var(--primary) ;
+    color: var(--text-color1);
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin-left: -5px;
+    
+}
 #initialsComment
 {
     width: 200px;
@@ -75,8 +97,9 @@ header > div > p{
     
 
 }
-#initialsComment > p{
-    font-size: small;
+#initialsComment > small{
+    display: inline-block;
+    font-size: 5px;
     width: 150px;
     background-color: black;
     border-radius: 10px;
@@ -85,4 +108,47 @@ header > div > p{
 #initialsContainer{
     
     display: flex;
+}
+
+#statistics{
+    width: 100vw;
+    height: fit-content;
+    background-color: var(--bg-white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+
+}
+.statCard{
+    background-color: rgba(1, 1, 1, 0.158);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    padding: 10px 20px;
+    border-radius: var(--raduce2);
+}
+.statIcon  {
+    color: #034BFF;
+    font-weight: bold;
+    font-size: large;
+}
+.statValue{
+    color: var(--text-color-darck1);
+    font-weight: bolder;
+    font-size: 20px;
+}
+.StatTitle{
+    color: var(--text-color-darck2);
+}
+
+@media screen and (max-width: 800px) {
+
+   
+    #initialsComment {
+      display: none;
+        
+    }
 }
