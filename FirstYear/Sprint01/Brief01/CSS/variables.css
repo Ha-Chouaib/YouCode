@@ -1,0 +1,24 @@
+:root{
+
+    --bg : #111010;
+    --surface1:   #11101048;
+    --text-color1:  #e8dfdf;
+    --text-color2:  #f7e7e7b7;
+    --text-color2:  #f7e7e77a;
+
+    --text-color-darck1: #070707;
+    --text-color-darck2: #0707079d;
+    --text-color-darck3: #2b2929da;
+
+    --Border-color:  #f7e7e79e;
+    --primary:  #086dfa;
+    --primary-soft:  #086dfa7c;
+
+
+    --raduce1: 5px;
+    --raduce2: 10px;
+
+    --text-size1: 1vw;
+    --text-size2: .5vw;
+    --text-size3: .2vw;
+}

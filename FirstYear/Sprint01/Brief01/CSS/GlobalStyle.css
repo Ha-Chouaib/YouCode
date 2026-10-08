@@ -1,0 +1,87 @@
+
+@import url("variables.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color: var(--text-color1);
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: var(--text-color1);
+}
+
+
+
+button{
+    outline: none;
+    border: none;
+    border-radius: var(--raduce1);
+    padding: 5px 10px;
+    font-size: var(--text-size2) ;
+    height: 35px;
+    cursor: pointer;
+}
+.outlineBtn{
+    background-color: transparent;
+    color: var(--text-color1);
+    border: solid var(--Border-color) 1px;
+}
+.primaryBtn
+{
+    background-color: var(--primary);
+    color: var(--text-color1);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 50px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-soft);
+    border-radius: 10px;
+    height: 100px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1a2d5a;
+}
+
+.initials
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    color: var(--text-color1);
+    box-shadow: inset 2px 2px 10px  white;
+    border-radius: 50%;
+    background-color: var(--primary) ;
+    color: var(--text-color1);
+    font-weight: bold;
+    font-size: 1.2vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin-left: -5px;
+    
+}

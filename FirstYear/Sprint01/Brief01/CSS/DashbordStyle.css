@@ -1,0 +1,88 @@
+@import url("variables.css");
+body{
+    width: 100vw;
+}
+
+header{
+    position: relative;
+    background: url("../Assets/YoucodeHero.jpg") no-repeat fixed center / cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+header::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(60vw 20vh at 50% 65%, rgba(3, 3, 3, 0.815),transparent 60% ) ;
+
+}
+
+h1{
+    position: relative;
+    top: -10vh;
+    font-size: 10vw;
+    background-color: rgba(0, 0, 0, 0.486);
+    border-radius: 95px;
+    padding: 0px 9vw;
+    box-shadow: inset 5px 5px 20px white;
+}
+h1 > span{
+    color: var(--primary);
+}
+header > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header > div > h2{
+    font-size: 2vw;
+    z-index: 2;
+}
+header > div > p{
+    z-index: 2;
+    font-size: 1.3vw;
+    width: 50vw;
+    text-align: center;
+}
+#headerActionsContainer
+{
+    position: relative;
+    bottom: -15vh;
+    flex-direction: row;
+    gap: 3vw;
+    z-index: 2;
+    
+}
+#SeeEventsBtn
+{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+#initialsComment
+{
+    width: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 1vw;
+    flex-direction: column;
+
+    
+
+}
+#initialsComment > p{
+    font-size: small;
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#initialsContainer{
+    
+    display: flex;
+}
