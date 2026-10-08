@@ -143,6 +143,126 @@ header > div > p{
 .StatTitle{
     color: var(--text-color-darck2);
 }
+#aboutEnvironmentContainer{
+    height:fit-content;
+    width: 100vw;
+    background: var(--bg-white1);
+    display: flex;
+    flex-direction: row;
+    color: black;
+
+}
+#aboutEnvironmentContainer > div{
+    width: 50%;
+    padding-left:2% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+
+
+}
+#aboutEnvironmentContainer > div > small{
+    font-weight: bold;
+    font-size: 9px;
+    color: #034BFF;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#aboutEnvironmentContainer > div > h2
+{
+    font-weight: bolder;
+    font-size: 2vw;
+    width: 300px;
+    
+}
+
+#aboutEnvironmentContainer > div > button
+{
+    width: 30%;
+    margin: 40px 0px;
+}
+#aboutEnvironmentContainer > div > p
+{
+    width: 70%;
+    
+}
+#aboutEnvironmentContainer > figure
+{
+    width: 50%;
+    height: 400px;
+    background: #e9e5e5f5;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#aboutEnvironmentContainer > figure > image
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+#journey
+{
+    width: 100%;
+    height: 40vh;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+#activities
+{
+    width: 100%;
+    height: 60vh;
+    background-color: var(--bg-white);
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: var(--bg);
+}
+#journeyProcess
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+#journeyProcess > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+#processIcon3{
+background-color: #04B886;
+}
+
+#processIcon4{
+background-color: #6744FF;
+}
+#processIcon6{
+background-color: #C7F64A;
+color:  var(--text-color-darck1);
+}
+.processTitle
+{
+    font-weight: bolder;
+}
+#journeyMainTitle
+{
+    font-weight: bolder;
+    font-size: 3vw;
+}
+#journeyMainText{
+    font-size: .7vw;
+}
 
 @media screen and (max-width: 800px) {
 
