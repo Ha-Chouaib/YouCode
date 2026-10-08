@@ -91,7 +91,22 @@ ul > :hover{
     border: solid var(--primary) .5px;
     color: var(--primary);
 
+    animation-name: navbounce;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-direction:normal;
+    animation-fill-mode: both;
+
 }
+
+@keyframes navbounce
+{
+    0% { transform:translateY(0)}
+    100%{ transform: translateY(-20px);}
+}
+
 #displayNav{
     display: none;
 }
