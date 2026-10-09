@@ -1,0 +1,8 @@
+@import url("variables.css");
+
+body
+{
+    background: var(--bg-white);
+    
+    
+}
